@@ -5,7 +5,7 @@ Imports System.Web.Mvc
 
 <TestClass()> Public Class HomeControllerTests
 
-    <TestMethod()> Public Sub TestMethod1()
+    <TestMethod()> Public Sub Home_Controller_Returns_Index_View()
         Dim controller As New HomeController
         Dim result As ViewResult = controller.Index()
 

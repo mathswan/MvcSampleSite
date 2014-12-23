@@ -145,7 +145,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\About.vb" />
-    <Compile Include="Models\MyDetails.vb" />
+    <Compile Include="Models\Home.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
