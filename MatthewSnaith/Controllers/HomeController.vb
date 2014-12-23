@@ -4,10 +4,10 @@
         Inherits System.Web.Mvc.Controller
 
         Public Function Index() As ActionResult
-            Dim myDetails As New MyDetails
+            Dim myDetails As New Home
             ViewData("Name") = myDetails.Name
             ViewData("Information") = myDetails.Information
-            Return View()
+            Return View("Index")
         End Function
 
     End Class

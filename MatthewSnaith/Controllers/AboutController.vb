@@ -6,7 +6,11 @@
         Public Function About() As ActionResult
             Dim aboutContent As New About
             ViewData("Disclamer") = aboutContent.Disclamer
-            Return View()
+            Return View("About")
+        End Function
+
+        Function Index() As ViewResult
+            Throw New NotImplementedException
         End Function
 
     End Class

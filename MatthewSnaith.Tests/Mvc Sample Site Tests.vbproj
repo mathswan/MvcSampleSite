@@ -116,8 +116,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="My Project\AssemblyInfo.vb" />
-    <Compile Include="UnitTests\MyDetails Model Tests.vb" />
-    <Compile Include="UnitTests\About Model Tests.vb" />
+    <Compile Include="UnitTests\MyDetailsModelTests.vb" />
+    <Compile Include="UnitTests\AboutModelTests.vb" />
+    <Compile Include="UnitTests\AboutControllerTests.vb" />
+    <Compile Include="UnitTests\HomeControllerTests.vb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

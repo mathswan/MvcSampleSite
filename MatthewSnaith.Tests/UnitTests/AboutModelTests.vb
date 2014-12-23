@@ -2,7 +2,7 @@
 Imports Microsoft.VisualStudio.TestTools.UnitTesting
 Imports MatthewSnaith.MatthewSnaith.Models
 
-<TestClass()> Public Class UnitTest2
+<TestClass()> Public Class AboutModelTests
 
     <TestMethod()> Public Sub About_Model_Generates_Disclamer()
         Dim about = New About
