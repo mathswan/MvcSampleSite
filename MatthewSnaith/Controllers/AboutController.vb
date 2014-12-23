@@ -9,10 +9,6 @@
             Return View("About")
         End Function
 
-        Function Index() As ViewResult
-            Throw New NotImplementedException
-        End Function
-
     End Class
 
 End Namespace
