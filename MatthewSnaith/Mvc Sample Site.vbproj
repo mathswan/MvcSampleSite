@@ -141,11 +141,15 @@
   <ItemGroup>
     <Compile Include="Controllers\AboutController.vb" />
     <Compile Include="Controllers\HomeController.vb" />
+    <Compile Include="Controllers\Section1Controller.vb" />
+    <Compile Include="Controllers\Section2Controller.vb" />
     <Compile Include="Global.asax.vb">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\About.vb" />
+    <Compile Include="Models\Section1.vb" />
     <Compile Include="Models\Home.vb" />
+    <Compile Include="Models\Section2.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
   </ItemGroup>
   <ItemGroup>
@@ -179,6 +183,12 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Views\About\About.vbhtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Section1\Section1.vbhtml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Views\Section2\Section2.vbhtml" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

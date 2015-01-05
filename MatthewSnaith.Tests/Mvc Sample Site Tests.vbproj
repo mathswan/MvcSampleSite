@@ -120,6 +120,10 @@
     <Compile Include="UnitTests\AboutModelTests.vb" />
     <Compile Include="UnitTests\AboutControllerTests.vb" />
     <Compile Include="UnitTests\HomeControllerTests.vb" />
+    <Compile Include="UnitTests\Section1ModelTests.vb" />
+    <Compile Include="UnitTests\Section1ControllerTests.vb" />
+    <Compile Include="UnitTests\Section2ControllerTests.vb" />
+    <Compile Include="UnitTests\Section2ModelTests.vb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

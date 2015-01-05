@@ -7,7 +7,7 @@ Imports MatthewSnaith.MatthewSnaith.Models
     <TestMethod()> Public Sub About_Model_Generates_Disclamer()
         Dim about = New About
 
-        Assert.AreEqual(about.Disclamer, "This is a sample website for testing purposes only")
+        Assert.AreEqual(about.Disclamer, "Under Construction. Under Construction. Under Construction. ")
     End Sub
 
 End Class

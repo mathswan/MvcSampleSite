@@ -8,6 +8,8 @@
 <body>
     <ul id="menu">
         <li>@Html.ActionLink("Home", "Index", "Home")</li>
+        <li>@Html.ActionLink("Section 1", "Section1", "Section1")</li>
+        <li>@Html.ActionLink("Section 2", "Section2", "Section2")</li>
         <li>@Html.ActionLink("About", "About", "About")</li>
     </ul>
     <section id="main">
