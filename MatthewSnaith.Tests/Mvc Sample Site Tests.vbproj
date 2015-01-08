@@ -131,6 +131,7 @@
     <Compile Include="UnitTests\Section1ControllerTests.vb" />
     <Compile Include="UnitTests\Section2ControllerTests.vb" />
     <Compile Include="UnitTests\Section2ModelTests.vb" />
+    <Compile Include="WebTests\DriverConfig\PhantomJSSetup.vb" />
     <Compile Include="WebTests\HomeViewTests.vb" />
     <Compile Include="WebTests\LayoutViewTests.vb" />
     <Compile Include="WebTests\DriverConfig\ChromeSetup.vb" />
