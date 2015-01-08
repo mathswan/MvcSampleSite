@@ -7,4 +7,4 @@ End Code
 
 @ViewData("SectionDetails")
 
-<p><img src="http://nees.oregonstate.edu/killer_wave/wave.jpg" alt="Wave Image"></p>
+<p><img src="/Content/Images/wave.jpg" alt="Wave Image"></p>

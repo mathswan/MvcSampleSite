@@ -7,4 +7,4 @@ End Code
 
 @ViewData("SectionDetails")
 
-<p><img src="http://where2walk.co.uk/wp-content/gallery/d035/mixed-trees-of-gisburn-forest.jpg" alt="Woodland Image"></p>
+<p><img src="/Content/Images/wood.jpg" alt="Woodland Image"></p>
