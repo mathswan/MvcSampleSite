@@ -133,7 +133,10 @@
     <Compile Include="UnitTests\Section2ModelTests.vb" />
     <Compile Include="WebTests\HomeViewTests.vb" />
     <Compile Include="WebTests\LayoutViewTests.vb" />
-    <Compile Include="WebTests\Shared\Startup.vb" />
+    <Compile Include="WebTests\DriverConfig\ChromeSetup.vb" />
+    <Compile Include="WebTests\AboutViewTests.vb" />
+    <Compile Include="WebTests\Section1ViewTests.vb" />
+    <Compile Include="WebTests\Section2ViewTests.vb" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />

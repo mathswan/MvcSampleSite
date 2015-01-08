@@ -5,12 +5,12 @@ Imports OpenQA.Selenium.Chrome
 Imports OpenQA.Selenium.Support.UI
 Imports MatthewSnaith.Tests.ChromeSetup
 
-<TestClass()> Public Class LayoutViewTests
+<TestClass()> Public Class AboutViewTests
 
-    <TestMethod()> Public Sub Layout_View_Contains_Disclaimer()
-        Dim webPage As ChromeDriver = LaunchApplication()
+    <TestMethod()> Public Sub About_View_Page_Title()
+        Dim webPage As ChromeDriver = LaunchApplication("About/About")
 
-        Assert.IsTrue(webPage.PageSource.Contains("DSD 2014. All Rights Reserved."))
+        Assert.AreEqual("About", webPage.Title)
         webPage.Close()
     End Sub
 
