@@ -22,4 +22,13 @@ Imports MatthewSnaith.Tests.ChromeSetup
         webPage.Close()
     End Sub
 
+    <TestMethod()> Public Sub Home_View_Next_Button_Click_Redirects_To_About_View()
+        Dim webPage As ChromeDriver = LaunchApplication()
+
+        webPage.FindElementById("Next").Click()
+
+        Assert.AreEqual("About", webPage.Title)
+        webPage.Close()
+    End Sub
+
 End Class

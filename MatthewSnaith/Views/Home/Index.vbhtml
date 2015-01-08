@@ -12,6 +12,6 @@ End Code
         Html.BeginForm("About", "About", method:=FormMethod.Post)
     End Code
 
-    <p><input type="submit" value="Next"></p>
+    <p><input type="submit" id="Next" value="Next"></p>
 
 </body>
