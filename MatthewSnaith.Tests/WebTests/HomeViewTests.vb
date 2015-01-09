@@ -29,7 +29,7 @@ Imports MatthewSnaith.Tests.PhantomJSSetup
 
     <TestMethod()> Public Sub Home_View_Contains_Name_Textbox()
 
-        Assert.IsTrue(webPage.PageSource.Contains("NameTextbox"))
+        Assert.IsTrue(webPage.FindElements(By.Id("NameTextbox")).Count = 1)
     End Sub
 
     <TestInitialize()>
