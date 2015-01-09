@@ -16,4 +16,10 @@ Imports MatthewSnaith.MatthewSnaith.Models
         Assert.AreEqual(myDetails.Information, "A little bit about the person called John Smith")
     End Sub
 
+    <TestMethod()> Public Sub MyDetails_Model_Generates_NameLabel()
+        Dim myDetails = New Home
+
+        Assert.AreEqual(myDetails.NameLabel, "Please enter your name")
+    End Sub
+
 End Class

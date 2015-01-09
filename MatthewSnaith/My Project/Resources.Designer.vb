@@ -79,6 +79,15 @@ Namespace My.Resources
         End Property
         
         '''<summary>
+        '''  Looks up a localized string similar to Please enter your name.
+        '''</summary>
+        Friend ReadOnly Property Home_NameLabel() As String
+            Get
+                Return ResourceManager.GetString("Home_NameLabel", resourceCulture)
+            End Get
+        End Property
+        
+        '''<summary>
         '''  Looks up a localized string similar to A little bit about the person called.
         '''</summary>
         Friend ReadOnly Property Home_P1() As String

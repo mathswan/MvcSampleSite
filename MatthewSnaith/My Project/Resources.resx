@@ -123,6 +123,9 @@
   <data name="Home_Name" xml:space="preserve">
     <value>John Smith</value>
   </data>
+  <data name="Home_NameLabel" xml:space="preserve">
+    <value>Please enter your name</value>
+  </data>
   <data name="Home_P1" xml:space="preserve">
     <value>A little bit about the person called</value>
   </data>

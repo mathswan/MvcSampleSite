@@ -9,27 +9,38 @@ Imports MatthewSnaith.Tests.PhantomJSSetup
 <TestClass()> Public Class HomeViewTests
 
     <TestMethod()> Public Sub Home_View_Title_Test()
-        Dim webPage As PhantomJSDriver = LaunchApplication()
 
         Assert.AreEqual("Home", webPage.Title)
-        webPage.Close()
     End Sub
 
     <TestMethod()> Public Sub Home_View_Content_Test()
+
         Dim contentText As String = "A little bit about the person called John Smith"
-        Dim webPage As PhantomJSDriver = LaunchApplication()
 
         Assert.IsTrue(webPage.PageSource.Contains(contentText))
-        webPage.Close()
     End Sub
 
     <TestMethod()> Public Sub Home_View_Next_Button_Click_Redirects_To_About_View()
-        Dim webPage As PhantomJSDriver = LaunchApplication()
 
         webPage.FindElementById("Next").Click()
 
         Assert.AreEqual("About", webPage.Title)
+    End Sub
+
+    <TestMethod()> Public Sub Home_View_Contains_Name_Textbox()
+
+        Assert.IsTrue(webPage.PageSource.Contains("NameTextbox"))
+    End Sub
+
+    <TestInitialize()>
+    Public Sub InitialiseDriver()
+        webPage = LaunchApplication()
+    End Sub
+
+    <TestCleanup()>
+    Public Sub Cleanup()
         webPage.Close()
     End Sub
 
+    Dim webPage As PhantomJSDriver
 End Class

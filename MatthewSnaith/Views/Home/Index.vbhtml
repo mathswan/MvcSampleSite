@@ -12,6 +12,10 @@ End Code
         Html.BeginForm("About", "Home", method:=FormMethod.Post)
     End Code
 
+    <p>@ViewData("NameLabel")</p>
+
+    <p><input type="text" id="NameTextbox" /></p>
+
     <p><input type="submit" id="Next" value="Next"></p>
 
 </body>

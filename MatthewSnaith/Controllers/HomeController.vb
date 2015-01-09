@@ -7,6 +7,7 @@
             Dim myDetails As New Home
             ViewData("Name") = myDetails.Name
             ViewData("Information") = myDetails.Information
+            ViewData("NameLabel") = myDetails.NameLabel
             Return View("Index")
         End Function
 
