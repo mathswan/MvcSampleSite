@@ -10,5 +10,11 @@
             Return View("Index")
         End Function
 
+        <HttpPost()>
+        Public Function About() As ActionResult
+            MsgBox("About method called")
+            Return View("About")
+        End Function
+
     End Class
 End Namespace

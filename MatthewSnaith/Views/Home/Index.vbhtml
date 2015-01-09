@@ -9,7 +9,7 @@ End Code
     @ViewData("Information")
 
     @Code 
-        Html.BeginForm("About", "About", method:=FormMethod.Post)
+        Html.BeginForm("About", "Home", method:=FormMethod.Post)
     End Code
 
     <p><input type="submit" id="Next" value="Next"></p>
